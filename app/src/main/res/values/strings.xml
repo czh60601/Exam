@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">正经的App</string>
+    <string name="app_email">greysun@yeah.net</string>
+    <string name="app_blog">http://greysun.top</string>
+    <!-- text view -->
+    <string name="txt_mark_left_square_brackets">[</string>
+    <string name="txt_mark_right_square_brackets">]</string>
+    <string name="txt_mark_short_line">-</string>
+    <string name="txt_mark_dot">.</string>
+    <string name="txt_answer">答案：</string>
+    <string name="txt_table_title_code">题号</string>
+    <string name="txt_table_title_type">题型</string>
+    <string name="txt_table_title_text">题干</string>
+    <string name="txt_path_now">当前位置：</string>
+    <string name="txt_back">返回上一层</string>
+    <string name="txt_version">当前版本：</string>
+    <string name="txt_all_right_reserved">版权所有：</string>
+    <!-- btn name -->
+    <string name="btn_import">添加新题</string>
+    <string name="btn_wrong">错题回顾</string>
+    <string name="btn_test">自我检测</string>
+    <string name="btn_browse">题库浏览</string>
+    <string name="btn_clear">清空题库</string>
+    <string name="btn_about">查看帮助</string>
+    <string name="btn_select_all">全选</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_deselect">反选</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_submit">提交</string>
+    <!-- activity name -->
+    <string name="activity_import">->添加新题</string>
+    <string name="activity_wrong">->错题回顾</string>
+    <string name="activity_test">->自我检测</string>
+    <string name="activity_browse">->题库浏览</string>
+    <!-- import -->
+    <string name="add_subject">添加科目</string>
+    <string name="total_progress">总体进度</string>
+    <string name="current_progress">当前进度</string>
+    <!-- help tips doc norm -->
+    <string name="help_tip_question_norm">题干不能出现换行符，也就是说题干需要在同一行(段)</string>
+    <string name="help_tip_extra_norm">不推荐多项同行，尤其是选项中有 “、”或“.” 注意全半角，尽量不要使用全角字符 PS不支持全角英文</string>
+    <string name="help_tip_type_norm">题型单独一行，且只注明题型例如“单选题”</string>
+</resources>

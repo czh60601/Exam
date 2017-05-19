@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_import"
+        android:id="@+id/Import_db"
+        android:onClick="Main_Menu_OnClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_browse"
+        android:id="@+id/Browse_all"
+        android:onClick="Main_Menu_OnClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_clear"
+        android:id="@+id/Clear_all"
+        android:onClick="Main_Menu_OnClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_test"
+        android:id="@+id/Random_exam"
+        android:onClick="Main_Menu_OnClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_wrong"
+        android:id="@+id/Wrong_list"
+        android:onClick="Main_Menu_OnClick"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_about"
+        android:id="@+id/About_"
+        android:onClick="Main_Menu_OnClick"
+        />
+</LinearLayout>
+
